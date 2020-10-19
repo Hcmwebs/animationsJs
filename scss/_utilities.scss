@@ -1,0 +1,18 @@
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@mixin flexSpaceBetween {
+  @include flexCenter;
+  justify-content: space-between;
+
+}
+
+@mixin gridCenter {
+  display: grid;
+  place-items:center;
+
+}
