@@ -14,5 +14,8 @@ card.addEventListener('click', () => {
 } )
 
 
+let images =[];
+
+
 
 
