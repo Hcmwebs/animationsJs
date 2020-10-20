@@ -1,7 +1,9 @@
 
 let card =document.querySelector('.card');
 let active = false;
-card.addEventListener('click', () => {
+card.addEventListener('click', activate);
+
+function activate () {
   if( !active){
     card.classList.add ('active');
     active = true;
@@ -11,10 +13,12 @@ card.addEventListener('click', () => {
     card.classList.remove('active');
     active = false;
   }
-} )
+} ;
 
 
-let images =[];
+
+
+
 
 
 

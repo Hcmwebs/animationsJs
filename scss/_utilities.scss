@@ -4,7 +4,6 @@
   align-items: center;
 }
 
-
 @mixin flexSpaceBetween {
   @include flexCenter;
   justify-content: space-between;
@@ -14,5 +13,11 @@
 @mixin gridCenter {
   display: grid;
   place-items:center;
+
+}
+@mixin gridSpaceBetween {
+  display: grid;
+  justify-content:space-between;
+  align-items: center;
 
 }
