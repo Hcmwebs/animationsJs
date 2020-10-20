@@ -1,0 +1,19 @@
+@media(min-width: 760px){
+
+  .container{
+    max-width: 1440px;
+    background-color: #ccc;
+
+  }
+
+  .card2{
+    transform: translateX(1920px);
+  }
+
+  .card.active .card1{
+    transform: translateX(-1920px);
+  }
+
+
+
+}
